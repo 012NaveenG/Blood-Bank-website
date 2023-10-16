@@ -1,0 +1,46 @@
+<nav>
+
+    <div class="left-nav">
+        <a href="/">
+            <h1>iBlood</h1>
+        </a>
+    </div>
+    <div class="mid-nav">
+        <ul>
+            <% if (locals.session) { %>
+                <a href="/about">About</a>
+                <a href="/contact">Contact</a>
+                <a href="/services">Services</a>
+
+                <% } else { %>
+                    <p>Welcome to the iblood </p>
+                    <% } %>
+
+
+
+        </ul>
+    </div>
+    <div class="right-nav">
+        <ul>
+            <% if (!locals.session) { %>
+                
+                <% if (locals.login) { %>
+                    <a href="/signup"><button>Signup</button></a>
+                    
+                    
+                    <% } else { %>
+                        <a href="/login"> <button>Login</button></a>
+                        <% } %>
+                
+
+                <% } else { %>
+                    <a href="/logout"> <button>
+                        Logout <i class="ri-logout-box-r-line"></i></button></a>
+                    <% } %>
+                
+        </ul>
+    </div>
+    
+
+
+</nav>

@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.section1{
+    background-image: url(/Images/doctor-group.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* margin-top: 10px; */
+    height: 90vh;
+    width: 100vw;
+    position: relative;
+}
+.section1 .text-contents{
+    height: 200px;
+    width: 60vw;
+    background-color:transparent;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-10%);
+    position: absolute;
+    text-align: center;
+    color:#b22121;
+
+    
+}
+.section1 .text-contents h1{
+    font-weight: 500;
+    font-size: 50px;
+    width: 80%;
+    margin: auto;
+    
+}
+.section2{
+    height: 130px;
+    width: 80vw;
+    margin: 10px auto;
+    display: flex;
+    color: #fff;
+}
+.section2 i:hover{
+    opacity: 0.8;
+    font-size: 35px;
+    color: #3333e4;
+
+}
+.section2 .left-sec{
+    background-color: #111;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:20px;
+   
+}
+.section2 .left-sec h2{
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.section2 .left-sec p{
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.section2 .left-sec a i{
+    font-size: 30px;
+}
+.section2 .left-sec a{
+    text-decoration: none;
+}
+.section2 .right-sec a{
+    text-decoration: none;
+}
+.section2 .right-sec{
+    background-color: #e40c0c;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+  
+}
+.section2 .right-sec h2{
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.section2 .right-sec p{
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.section2 .right-sec a i{
+    font-size: 30px;
+}
+.section3{
+    background-color: aliceblue;
+    margin-bottom: 10px;
+}
+.item-container{
+    width: 80vw;
+    height: 200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+.item-container p{
+    opacity: 0.8;
+    width: 80%;
+    margin-top: 10px;
+}
+
+.section4{
+  background-color: #e40c0c;
+    margin-bottom: 10px;
+}
+.data-container{
+    height: 120px;
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.data-container .data{
+    height: 80px;
+    width: 24%;
+   
+    text-align: center;
+    color: #fff;
+
+}
+.data-container .data h1{
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.section5{
+    background-color: rgb(176, 231, 213);
+    margin-bottom: 10px;
+    padding: 30px 0;
+}
+.section5 .service-container{
+    /* height: 300px; */
+    width: 70vw;
+    
+    margin: auto;
+}
+.section5 .service-container .texts{
+    text-align: center;
+}
+.section5 .service-container .texts p{
+    font-size: 15px;
+    color: #e40c0c;
+    font-weight: 500;
+}
+.section5 .service-container .texts h1{
+    font-size: 40px;
+    font-weight: 500;
+}
+.section5 .service-container .card-section{
+    width: 80vw;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.section5 .service-container .card-container{
+    height: 350px;
+    width: 250px;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 5px;
+}
+.section5 .service-container .card-container img{
+    height: 150px;
+    border-radius: 5px;
+    width: 100%;
+}
+.section5 .service-container .card-container div{
+    text-align: center;
+    margin-top: 10px;
+}
+.section5 .service-container .card-container button{
+    outline: none;
+    background-color: #111;
+    color: #fff;
+    font-size: 17px;
+    border: unset;
+    border-radius: unset;
+    width: 100%;
+    margin: 10px 0;
+}
+.section6{
+    background-color: rgb(176, 231, 213);
+    margin-bottom: 10px;
+    padding: 30px 0;
+}
+.section6 .team-container{
+    width: 80vw;
+    margin: auto;
+}
+.team-container .texts{
+    text-align: center;
+}
+.team-container .texts p{
+    font-size: 15px;
+    color: #e40c0c;
+    font-weight: 500;
+
+}
+.team-container .texts h1{
+    font-weight: 500;
+    font-size: 40px;
+    
+}
+.team-card-container{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    justify-content: space-around;
+    padding: 0 40px;
+}
+.team-card-container .card {
+    height:250px;
+    width: 25%;
+    background-color: #fff;
+    border-radius: 5px;
+}
+.team-card-container .card img{
+    height: 70%;
+    width: 90%;
+    margin: 0 15px;
+}
+.team-card-container .card h3{
+    text-align: center;
+    font-size: 20px;
+    margin: 10px 0;
+    font-weight: 500;
+}
+.team-card-container .card p{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+}

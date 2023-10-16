@@ -1,0 +1,281 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+h3 {
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+h3 span {
+    color: #ed0505;
+    text-transform: initial;
+}
+
+/* login page classes  */
+form {
+    height: 70vh;
+    width: 70vw;
+    margin: 20px auto;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding-top: 50px;
+}
+
+form input {
+    width: 98%;
+    outline: none;
+    font-size: 17px;
+    margin: 2px 0 10px 0;
+    padding: 5px 15px;
+    border: 2px solid #ed0505;
+    border-radius: 5px;
+}
+
+form p {
+    text-align: center;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+
+.left-form-content,
+.right-form-content {
+    width: 49%;
+
+}
+
+.left-form-content p {
+    margin: 10px 0;
+    text-align: center;
+}
+
+.left-form-content span a {
+    color: #ed0505;
+    text-decoration: none;
+}
+
+.form-btn-items {
+    margin: auto;
+    width: 60%;
+    display: flex;
+    gap: 10px;
+    padding: 0 40px;
+}
+
+.right-form-content img {
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+
+
+}
+
+/* about page classes  */
+
+section {
+    width: 98vw;
+    margin: 5px auto;
+    height: 45vh;
+    display: flex;
+    align-items: center;
+    padding: 5px 30px;
+    background-color: #f7e7e7;
+}
+
+section p {
+    margin-top: 5px;
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.8;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+section h2 {
+    text-align: center;
+}
+
+.left-section,
+.right-section {
+    height: 95%;
+    margin: auto;
+    position: relative;
+    width: 49%;
+    /* background-color: #ed0505; */
+
+}
+
+.about-section1 .right-section img {
+    height: 100%;
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.about-section2 img {
+    height: 100%;
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* contact page classes  */
+.contact-page {
+    width: 98vw;
+    display: flex;
+    gap: 20px;
+    /* align-items: center; */
+    padding: 5px 30px;
+    height: 80vh;
+    background-color: #d3f9d3;
+}
+
+.left-contact,
+.right-contact {
+    width: 49%;
+    height: 100%;
+   
+    position: relative;
+
+}
+
+.left-contact div {
+    position: absolute;
+    width: 80%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-60%);
+}
+
+.left-contact p {
+    width: 90%;
+    opacity: 0.9;
+    font-size: 17px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.right-contact input {
+    width: 100%;
+}
+.right-contact textarea{
+    width: 100%;
+    outline: none;
+    border: 2px solid red;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 15px;
+   margin: 5px 0;
+}
+
+
+.right-contact .contact-form {
+    
+    width: 80%;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* login page classes  */
+.error-container{
+    width: 80vw;
+    height: 80vh;
+    margin: 20px auto;
+    background-color: #d3f9d3;
+    position: relative;
+}
+.error-container img{
+    margin: auto;
+    position: absolute;
+    height: 200px;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+}
+.error-container h1{
+    text-align: center;
+    font-weight: 400;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-20%);
+    position: absolute;
+}
+.error-container span{
+    color: #ed0505;
+    font-weight: 500;
+}
+.error-container a{
+    color: #2e2ef0;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+/* page not found classes  */
+.page-not-found-container{
+    height: 60vh;
+    width: 80vw;
+
+    background-color:#ecb1b1;
+    margin:100px auto;
+    position: relative;
+    text-align: center;
+}
+.page-not-found-container div{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.page-not-found-container a{
+    text-decoration: none;
+    color: #fff;
+}
+.page-not-found-container h1{
+    font-size: 100px;
+    font-weight: 500;
+    color: #ed0505;
+}
+.page-not-found-container p{
+    color: #fff;
+    font-weight: 500;
+    font-size: 17px;
+}
+.page-not-found-container button{
+    outline: none;
+    background-color: #ed0505;
+    color: #fff;
+    border-radius: 8px;
+    font-size: 20px;
+    border: 2px solid #fff;
+    padding: 5px;
+    transition: all 0.3s ease-in-out;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.page-not-found-container button:hover{
+    background-color: #fff;
+    color: #111;
+    border: 2px solid #111;;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iBlood - Login Page</title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="mainstyle.css">
+</head>
+<body>
+    <%- include("Components/header.ejs")%>
+    <form action="/signup" method="post">
+
+        <div class="left-form-content">
+            <h3>Register to our <span>iBlood</span></h3>
+            <p>Please remember your credentials for future use..</p>
+            <label for="fname">First Name</label>
+            <input type="text" name="firstname" placeholder="First Name" required id="fname">
+
+            <label for="lname">Last Name</label>
+            <input type="text" name="lastname" placeholder="Last Name" id="lname">
+
+            <label for="cno">Contact No</label>
+            <input type="text" name="contact" placeholder="Contact Number" required id="cno">
+
+            <label for="uname">Username</label>
+            <input type="text" name="username" placeholder="Create your username" required id="uname">
+
+            <label for="upass">Password</label>
+            <input type="password" id="upass" placeholder="Create your password" required name="password">
+
+            <p>Already have an account? <span><a href="login">Login</a></span></p>
+            <div class="form-btn-items">
+                <button type="submit">Submit</button>
+                <button type="reset">Clear</button>
+            </div>
+        </div>
+        <div class="right-form-content">
+            <img src="/Images/signup-img.webp" alt="">
+        </div>
+    </form>
+</body>
+
+</html>

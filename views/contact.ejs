@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iBlood - Contact Us</title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="mainstyle.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+
+<body>
+    <%- include("Components/header.ejs") %>
+        <div class="contact-page">
+            <div class="left-contact">
+                <div>
+                    <h4>Please fill the form to get connected with us</h4> <hr>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti atque aliquid at. Aliquam
+                        ipsam
+                        fuga nisi itaque sapiente laudantium reprehenderit. Nemo assumenda modi delectus aut doloremque
+                        aliquam ad molestias similique! Natus labore corporis quisquam facere illo possimus. Optio,
+                        aliquam
+                        quis laborum sed dignissimos similique nisi fuga laudantium consequuntur asperiores rerum?
+                    </p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis dolorem possimus tempore quasi id doloremque officiis inventore ex quidem architecto.</p>
+                </div>
+            </div>
+            <div class="right-contact">
+                <form action="/contact" method="post">
+                    <div class="contact-form">
+                        <div>
+                            <label for="fname">First Name</label>
+                            <input type="text" name="firstname" required id="fname">
+                        </div>
+
+                        <div>
+                            <label for="lname">Last Name</label>
+                            <input type="text" name="lastname" id="lname">
+                        </div>
+
+                        <div>
+                            <label for="email">Email</label>
+                            <input type="email" name="email" required id="email">
+                        </div>
+                        <div>
+                            <label for="msg">Message</label>
+                            <textarea name="message" id="msg" maxcols="30" maxlength="1000" rows="3" placeholder="Write your message here"></textarea>
+                        </div>
+                        <button type="submit">Send</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <%- include("Components/footer.ejs") %>
+
+</body>
+
+</html>
